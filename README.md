@@ -1,6 +1,5 @@
 # dso_learn
 Each module code of DSO.
-<<<<<<< HEAD
 
 
 ### DSO Module
@@ -21,9 +20,3 @@ Each module code of DSO.
 > a. 读取图像：首先会先检测输入变量是否合理，并且是否读取成功，读取成功则显示图像，否则就退出系统；
 > b. 
 
-
-
-
-
-=======
->>>>>>> 51e0936e4d13b4f62a1716176431db8ca095000b
