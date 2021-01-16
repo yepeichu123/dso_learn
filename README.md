@@ -1,4 +1,4 @@
-# dso_learn
+# dso_learn——Designed by 叶培楚
 Each module code of DSO.
 
 ### DSO Module
@@ -13,10 +13,5 @@ Each module code of DSO.
 
 #### 2. PixelSelector
 
-&ensp; &ensp; 第二讲：[DSO全家桶（二）——DSO前端：提取梯度点](https://blog.csdn.net/Y_Dumpling/article/details/112256721)主要是介绍DSO对于像素梯度点的提取流程。在DSO的跟踪阶段，为了节省时间，使用到了图像金字塔。因此，在梯度点的提取阶段，对于点的提取也是按照图像金字塔的标准提取的。这一讲，我们会提供配套的代码。
-
-&ensp; &ensp; 具体的算法流程如下所示：
-> a. 读取图像：首先会先检测输入变量是否合理，并且是否读取成功，读取成功则显示图像，否则就退出系统；
-
-> b. 
+&ensp; &ensp; 第二讲：[DSO全家桶（二）——DSO前端：提取梯度点](https://blog.csdn.net/Y_Dumpling/article/details/112256721)主要是介绍DSO对于像素梯度点的提取流程。在DSO的跟踪阶段，为了节省时间，使用到了图像金字塔。因此，在梯度点的提取阶段，对于点的提取也是按照图像金字塔的标准提取的。详细内容可以阅读代码PixelSelector/README.md。
 
