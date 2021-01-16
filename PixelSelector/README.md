@@ -17,9 +17,13 @@
 
 非常简单的编译方法。。。
 > mkdir build
+
 > cd build
+
 > cmake ..
+
 > make -j2
+
 > ./bin/testPixelSelector ./data/test.png
 
 
@@ -27,33 +31,33 @@
 ### 具体的算法流程如下所示：
 > **读取图像**：首先会先检测输入变量是否合理，并且是否读取成功，读取成功则显示图像，否则就退出系统；
 <div align=center>
-    <img src=data/test.png>
+    <img src=./data/test.png>
 </div>
 
 > **构建图像金字塔**：构建图像金字塔，包括计算给定网格尺寸32*32的直方图，图像金字塔，梯度图像和梯度平方和等金字塔；
 
 <div align=center>
-    <img src=data/level_0.png>
+    <img src=./data/level_0.png>
 </div>
 
 <div align=center>
-    <img src=data/level_1.png>
+    <img src=./data/level_1.png>
 </div>
 
 <div align=center>
-    <img src=data/level_2.png>
+    <img src=./data/level_2.png>
 </div>
 
 <div align=center>
-    <img src=data/level_3.png>
+    <img src=./data/level_3.png>
 </div>
 
 <div align=center>
-    <img src=data/level_4.png>
+    <img src=./data/level_4.png>
 </div>
 
 <div align=center>
-    <img src=data/level_5.png>
+    <img src=./data/level_5.png>
 </div>
 
 > **提取图像梯度点**：参考博客：[DSO全家桶（二）——DSO前端：提取梯度点](https://blog.csdn.net/Y_Dumpling/article/details/112256721)中对算法的介绍。
